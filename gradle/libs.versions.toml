@@ -1,5 +1,5 @@
 [versions]
-agp = "8.5.1"
+agp = "8.5.0"
 glideVersion = "4.14.2"
 kotlin = "1.9.0"
 coreKtx = "1.13.1"
@@ -11,10 +11,13 @@ material = "1.12.0"
 activity = "1.8.0"
 constraintlayout = "2.1.4"
 recyclerview = "1.2.0"
-
-
 glide = "4.16.0"
+androidxCore = "1.10.1"
+roomCompiler = "2.6.1"
+roomCompilerVersion = "2.7.0-alpha01"
+sqliteBundled = "2.3.0"
 kapt = "2.0.20"
+
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -32,6 +35,6 @@ glide = { group = "com.github.bumptech.glide", name="glide", version.ref="glide"
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
 jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
-kotlinKaptAndroid = { id = "org.jetbrains.kotlin.kapt", version.ref = "kapt" }
 
+kotlinKapt = "org.jetbrains.kotlin:kapt:2.6.1"
 
